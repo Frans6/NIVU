@@ -1,0 +1,200 @@
+.home-page {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  color: #333;
+  background-color: #ebebeb99;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0.6, 0.6, 0.6, 0.6);
+}
+
+.home-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #222;
+  text-align: center;
+}
+
+.home-page .query-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f2f2f299;
+  box-shadow: 0 2px 4px rgba(0.6, 0.6, 0.6, 0.6);
+  position: relative;
+}
+
+.home-page .delete-query-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.home-page .table-selector,
+.home-page .column-selector,
+.home-page {
+  margin-bottom: 20px;
+}
+
+.custom-select__control {
+  margin-top: 5px;
+  width: 100%;
+}
+
+body .custom-select__placeholder {
+  color: black;
+}
+
+.home-page .sql-preview {
+  margin-top: 20px;
+  padding: 10px;
+  background: #d4d4d499;
+  border-radius: 4px;
+}
+
+.home-page .add-query-button,
+.home-page .combine-button {
+  padding: 10px;
+  font-size: 14px;
+  margin: 0px 0px 40px 0px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #4b6cb7, #182848);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.home-page .add-query-button:hover,
+.home-page .combine-button:hover {
+  background-color: #0056e0;
+}
+
+.home-page .combined-sql {
+  padding: 20px;
+  background: #f2f2f299;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0.6, 0.6, 0.6, 0.6);
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.input-label {
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.limit-order-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.order-by-direction-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.order-by-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: -80px;
+}
+
+.combine-button {
+  display: block;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #4b6cb7, #182848);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.combine-button:hover {
+  background-color: #0056e0;
+}
+
+.copy-sql-button {
+  margin-left: 90%;
+  padding: 10px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #818181;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.copy-sql-button:hover {
+  background-color: #5b5b5b;
+}
+
+body.dark .home-page {
+  color: #ddd;
+  background-color: #333;
+}
+
+body.dark .home-page .query-section {
+  background-color: #444;
+  border-color: #555;
+}
+
+body.dark .home-page .sql-preview,
+body.dark .home-page .combined-sql {
+  background-color: #555;
+  color: #ddd;
+}
+
+body.dark .home-page .delete-query-button {
+  background-color: darkred;
+}
+
+body.dark .input-field,
+body.dark .select-field,
+body.dark .custom-select__control {
+  background-color: #555;
+  color: #ddd;
+  border-color: #666;
+}
+
+body.dark .custom-select__placeholder {
+  color: #ddd;
+}
+
+body.dark h1 {
+  color: #ddd;
+}

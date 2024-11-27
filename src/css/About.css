@@ -1,0 +1,90 @@
+/* css/About.css */
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark .about-page {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.about-page h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+body.dark .about-page h1 {
+  color: #f0f0f0;
+}
+
+.about-page p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+body.dark .about-page p {
+  color: #ddd;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark .about-section {
+  background-color: #444;
+  color: #ddd;
+}
+
+.accordion-header {
+  font-size: 2rem;
+  color: #4d4d4d;
+  cursor: pointer;
+  margin: 0;
+}
+
+body.dark .accordion-header {
+  color: #f9f9f9;
+}
+
+.accordion-content {
+  margin-top: 1rem;
+}
+
+.about-page ol, .about-page ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-page li {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+body.dark .about-page li {
+  color: #ddd;
+}
+
+.about-page strong {
+  color: #333;
+}
+
+body.dark .about-page strong {
+  color: #f0f0f0;
+}

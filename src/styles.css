@@ -1,0 +1,89 @@
+.query-builder {
+    padding: 20px;
+  }
+  .query-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+  }
+  .delete-query-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .table-selector {
+    margin-bottom: 20px;
+  }
+  .column-selector {
+    margin-top: 10px;
+  }
+  .limit-selector {
+    margin-top: 10px;
+  }
+
+  .sql-preview {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f5f5f5;
+  }
+  .add-query-button, .combine-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px 10px;
+  }
+  .combined-sql {
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 4px;
+  }
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+
+  body.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .query-builder.light .query-section {
+    background-color: #f9f9f9;
+    border-color: #ddd;
+  }
+  .query-builder.light .sql-preview {
+    background-color: #f5f5f5;
+  }
+  .combined-sql.light {
+    background: #f5f5f5;
+    color: #000000;
+  }
+  
+
+  body.dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .query-builder.dark .query-section {
+    background-color: #444444;
+    border-color: #555555;
+  }
+  .query-builder.dark .sql-preview {
+    background-color: #555555;
+  }
+  .combined-sql.dark {
+    background: #555555;
+    color: #ffffff;
+  }
+  .theme-toggle-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
