@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/NIVU/static/css/main.ad5763bd.css",
+    "main.css": "/NIVU/static/css/main.117e7c85.css",
     "main.js": "/NIVU/static/js/main.8a752cfe.js",
     "index.html": "/NIVU/index.html",
-    "main.ad5763bd.css.map": "/NIVU/static/css/main.ad5763bd.css.map",
+    "main.117e7c85.css.map": "/NIVU/static/css/main.117e7c85.css.map",
     "main.8a752cfe.js.map": "/NIVU/static/js/main.8a752cfe.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad5763bd.css",
+    "static/css/main.117e7c85.css",
     "static/js/main.8a752cfe.js"
   ]
 }
